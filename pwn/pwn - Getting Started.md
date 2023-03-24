@@ -2,7 +2,8 @@
 
 So we get to overflow the first 32 bytes implementing what we have learned in the previous challenges
 
-![Untitled](pwn%20-%20Getting%20Started%20af23091ea3904779b5b866c1e7eb84a8/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/88723154/227420230-4e8c57fb-89c5-4406-bafb-bd7565dfeedf.png)
+
 
 So lets’ give it a go
 
@@ -12,6 +13,7 @@ We use the command from before to create a payload and overflow the requested bu
 
 We send the request and we get the flag back
 
-![Untitled](pwn%20-%20Getting%20Started%20af23091ea3904779b5b866c1e7eb84a8/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/88723154/227420240-41413fbe-fb5c-4d12-a642-805b21e87657.png)
+
 
 ### flag: HTB{b0f_s33m5_3z_r1ght?}
