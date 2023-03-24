@@ -14,11 +14,13 @@ This is the query from burp
 
 I’ve also used a graphQL extension from Burp that helped me understand how we can query the mutation and update the password for the user admin, a very neat and useful tool for someone such as myself that was dealing with graphQL for the first time
 
-![Untitled](web%20-%20Passman%20ad20b2bf415d44fca6aa4c4c56f1d651/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/88723154/227416974-2861f6b8-1ebd-4a5c-9e2e-6f1a62d3f47a.png)
 
 Final request from the above query from burp:
 
-![Untitled](web%20-%20Passman%20ad20b2bf415d44fca6aa4c4c56f1d651/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/88723154/227416988-a400d036-f4e1-400c-b545-9076ae12feb6.png)
+
 
 More concise query for graphQL to see what are the objects, fields, and etc..
 
@@ -26,6 +28,7 @@ More concise query for graphQL to see what are the objects, fields, and etc..
 
 And voila, we are in after we changed the password for the **admin and we get the flag!**
 
-![Untitled](web%20-%20Passman%20ad20b2bf415d44fca6aa4c4c56f1d651/Untitled%202.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/88723154/227417001-a13eaaee-b70e-488c-95a7-34fd867e5c8b.png)
 
 ### flag: HTB{1d0r5_4r3_s1mpl3_4nd_1mp4ctful!!}
