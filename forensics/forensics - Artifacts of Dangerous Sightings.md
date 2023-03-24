@@ -6,7 +6,8 @@ After snooping aroung a little bit found this powershell hidden.ps1 script, that
 
 Mounted in FTK imager and the script was under C:\Users\Windows\Tasks after looking around form something interesting
 
-![Untitled](forensics%20-%20Artifacts%20of%20Dangerous%20Sightings%20f997255415d04d228a0353c8f7ba2980/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/88723154/227419270-a96ede66-065c-4d04-80ba-62b13667c491.png)
 
 ## Script
 
@@ -14,7 +15,8 @@ powerShell.exe -WindowStyle hiddeN -ExecuTionPolicy ByPasS -enc JAB7AFsAfgBAAH0A
 
 We got this in CyberChef and after a while we get the following string of text
 
-![Untitled](forensics%20-%20Artifacts%20of%20Dangerous%20Sightings%20f997255415d04d228a0353c8f7ba2980/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/88723154/227419375-56945828-a6c1-49ed-96c4-e129922239cb.png)
+
 
 Or we can decode the base64 from powershell directly where $encoded is the encoded chunk we got from the script
 
@@ -58,6 +60,7 @@ string Insert(int startIndex, string value)
 
 So if we echo the above we get the following:
 
-![Untitled](forensics%20-%20Artifacts%20of%20Dangerous%20Sightings%20f997255415d04d228a0353c8f7ba2980/Untitled%202.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/88723154/227419335-00001ed6-d0c1-4fde-88bd-0a7ca94042b0.png)
 
 ### flag: HTB{Y0U_C4nt_St0p_Th3_Alli4nc3}
