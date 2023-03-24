@@ -8,6 +8,7 @@ And I guess we wait for the flag….
 
 Somewhere in the response we get the flag
 
-![Untitled](misc%20-%20Persistance%20751a1ab74e424a06a583b92ac1a0392a/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/88723154/227420006-5e86b000-226d-4735-b785-a01e3851beaa.png)
+
 
 ### flag: HTB{y0u_h4v3_p0w3rfuL_sCr1pt1ng_ab1lit13S!}
