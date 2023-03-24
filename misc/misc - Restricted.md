@@ -4,7 +4,8 @@ Reading the docker file we can see the user **restricted** and allowed to login 
 
 Once we are in, the shell is restricted, to bypass that run ssh and get into the machine again and we have the power!
 
-![Untitled](misc%20-%20Restricted%20bb7d2fdd10d4468391346f708003965f/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/88723154/227420079-09b8a81a-fb75-49c0-83d4-7a12769ec7b4.png)
+
 
 `ssh restricted@139.59.173.68 -p 31265 -t "bash --noprofile"`
 
