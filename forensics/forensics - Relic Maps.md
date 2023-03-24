@@ -43,9 +43,10 @@ window.resizeTo 0,0
 AutoOpen
 Cl`
 
-## OneNote file and the output of the .hta file
+## OneNote file and the output of the .hta file inside
 
-![Untitled](forensics%20-%20Relic%20Maps%2014fd51a0afa042998e6ec43cd0dfd9c9/Untitled.png)
+
+![Untitled](https://user-images.githubusercontent.com/88723154/227419666-8d162997-f641-4ad2-95e7-c23424c002e9.png)
 
 ```powershell
 <!DOCTYPE html>
@@ -516,8 +517,7 @@ Using cyberchef we can extract some information from the payload:
 
 ### Cyberchef cooking recipe:
 
- 
+![Untitled 1](https://user-images.githubusercontent.com/88723154/227419753-50991304-8bd4-4703-9e7d-dcf082399bb2.png)
 
-![Untitled](forensics%20-%20Relic%20Maps%2014fd51a0afa042998e6ec43cd0dfd9c9/Untitled%201.png)
 
 ### flag: HTB{0neN0Te?_iT'5_4_tr4P!}
