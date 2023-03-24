@@ -1,8 +1,9 @@
 # forensics - Roten
 
-We have  a pcap file, poking around the file we get to find a php script
+We have a pcap file, poking around the file we get to find a php script
 
-![Untitled](forensics%20-%20Roten%205f3f05075fbd4cdd905e2cd32f817b31/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/88723154/227419829-2799328c-ece2-4cc4-97de-30b14b63a070.png)
+
 
 ```php
 <?php 
@@ -59,6 +60,7 @@ eval( $bhrTeZXazQ );
 
 Instead of eval we can call it with echo, run the php and we get the flag from the output
 
-![Untitled](forensics%20-%20Roten%205f3f05075fbd4cdd905e2cd32f817b31/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/88723154/227419856-2219a4f0-afeb-4172-92a9-e63b364e7fc6.png)
+
 
 ### flag: HTB{W0w_ROt_A_DaY}
